@@ -35,7 +35,7 @@ void main() {
       // Assert
       expect(result, equals(const Right<dynamic, void>(null)));
       verify(() => repository.createUser(
-            createdAt: params.createAt,
+            createdAt: params.createdAt,
             name: params.name,
             avatar: params.avatar,
           )).called(1);
