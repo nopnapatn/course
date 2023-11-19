@@ -7,7 +7,7 @@ import 'package:course/src/auth/data/models/user_model.dart';
 import 'package:http/http.dart' as http;
 
 const kCreateUserEndpoint = '/test-api/users';
-const kGetUsersEndpoint = '/test-api/user';
+const kGetUsersEndpoint = '/test-api/users';
 
 abstract class AuthRemoteDataSource {
   Future<void> createUser({

@@ -1,8 +1,8 @@
-import 'package:bloc/bloc.dart';
 import 'package:course/src/auth/domain/entities/user.dart';
 import 'package:course/src/auth/domain/usecases/create_user.dart';
 import 'package:course/src/auth/domain/usecases/get_users.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 part 'auth_state.dart';
 
